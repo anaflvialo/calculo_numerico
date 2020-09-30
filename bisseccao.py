@@ -9,7 +9,7 @@ def bisseccao(a, b, e):
     
     #verificando teorema de bolzano
     if (f(a)*f(b)<0): #existe pelo menos um ponto c no intervalo [a,b] tal que f(c)=0
-        print('|k|a|b|f(a)|f(b)|x|f(x)|')
+        print('|k|a|x|b|f(a)|f(x)|f(b)|')
         k=0
         while(1):
             x = (a+b)/2
